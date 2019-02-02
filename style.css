@@ -7,3 +7,7 @@ Description: Tema desenvolvido para cliente ficticio em formato de Campus de Uni
 Version: 1.0
 Text Domain: lfwi-university-theme
 */
+
+body {
+    color: orange;
+}
