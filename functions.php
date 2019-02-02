@@ -8,4 +8,9 @@
     }
     add_action( 'wp_enqueue_scripts', 'lfwi_university_files' );
 
+    function lfwi_university_features () {
+        add_theme_support( 'title-tag' );
+    }
+
+    add_action( 'after_setup_theme', 'lfwi_university_features' );
 ?>
