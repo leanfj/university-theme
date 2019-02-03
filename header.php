@@ -14,7 +14,7 @@
       <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
       <div class="site-header__menu group">
         <nav class="main-navigation">
-          <ul>
+          <!-- <ul>
             <li <?php 
             if (is_page( 'about-us' ) or wp_get_post_parent_id( 0 ) == 21 )echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url( 'index.php/about-us' );?>">About Us</a></li>
             <li><a href="#">Programs</a></li>
@@ -22,10 +22,10 @@
             <li><a href="#">Campuses</a></li>
             <li <?php 
             if (get_post_type() == 'post') echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url( 'index.php/blog' );?>">Blog</a></li>
-          </ul>
-          <!-- <?php wp_nav_menu(array(
+          </ul> -->
+          <?php wp_nav_menu(array(
             'theme_location' => 'headerMenuLocation'
-          )); ?> -->
+          )); ?>
         </nav>
         <div class="site-header__util">
           <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
