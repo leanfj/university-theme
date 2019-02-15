@@ -1,5 +1,5 @@
-exports.themeLocation = './';
-exports.urlToPreview = 'http://localhost';
+exports.themeLocation = "./";
+exports.urlToPreview = "http://localhost/curso_udemy/index.php";
 
 // If you're using Local by Flywheel you will
 // want your settings to be similar to the examples below:
