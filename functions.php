@@ -17,17 +17,21 @@
 
     add_action( 'after_setup_theme', 'lfwi_university_features' );
 
+    // <?php
     // function lfwi_university_post_types() {
-    // register_post_type( 'event', array(
+    //   register_post_type( 'event', array(
+    //     'supports' => array('title', 'editor', 'excerpt'),
+    //     'rewrite' => array('slug' => 'events'),
     //     'public' => true,
     //     'menu_icon' => 'dashicons-calendar-alt',
     //     'labels' => array(
-    //         'name' => 'Events',
-    //         'add_new_item' => 'Add New Events',
-    //         'edit_item' => 'Edit Event',
-    //         'all_items' => 'All Events',
-    //         'singular_name' => 'Event'
-    //     )
-    // ) );
+    //       'name' => 'Events',
+    //       'add_new_item' => 'Add New Events',
+    //       'edit_item' => 'Edit Event',
+    //       'all_items' => 'All Events',
+    //       'singular_name' => 'Event'
+    //     ),
+    //     'has_archive' => true,
+    //   ) );
     // }
     // add_action( 'init', 'lfwi_university_post_types');
