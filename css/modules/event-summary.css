@@ -4,6 +4,8 @@
   min-height: 77px;
   padding-bottom: 1px;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 
   &__title a {
     color: #173f58;
@@ -16,17 +18,17 @@
     left: 0;
     position: absolute;
     padding: 14px 0 11px 0;
-    color: #FFF;
+    color: #fff;
     border-radius: 50%;
     background-color: $mainBlue;
     width: 80px;
     line-height: 1;
-    transition: opacity .33s;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+    transition: opacity 0.33s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
   }
 
   &__date:hover {
-    opacity: .75;
+    opacity: 0.75;
   }
 
   &__date--beige {
